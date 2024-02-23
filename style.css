@@ -1,0 +1,209 @@
+.fit-picture{
+    width: 132px;
+}
+h1{
+    font-size: 20px;
+
+}
+.self-intro{
+    
+    display: flex;
+    align-items: center;
+    
+    }
+
+    .text{
+        margin-left: 20px;
+    }
+    .ed{
+        background-color: hsl(252, 94%, 82%);
+    }
+
+    .education table {
+        width: 100%;
+        border-collapse: collapse;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px #f36e6e1a;
+    }
+    
+    .education th, .education td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .education th {
+        
+        font-weight: bold;
+    }
+    
+    .education tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    
+    .education tr:hover {
+        background-color: #f2f2f2;
+    }
+    
+    .ws-box{
+        background-color:hsl(252, 94%, 82%) ;
+    }
+    .work-experience {
+        padding: 20px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .job {
+        margin-bottom: 20px;
+    }
+    
+    .job .job-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .job .job-header h3 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+    
+    .job .job-header .duration {
+        font-weight: bold;
+    }
+    
+    .job p {
+        margin-bottom: 5px;
+    }
+    
+    .job ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+    
+    .job ul li {
+        margin-bottom: 5px;
+    }
+    
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .projects {
+        padding: 20px;
+        
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .project {
+        margin-bottom: 20px;
+        
+    }
+
+    .Project-row{
+        background-color: hsl(0, 0%, 100%);
+    }
+    
+    .project h3 {
+        color: rgb(13, 13, 13);
+        margin-bottom: 10px;
+    }
+    
+    .project ul {
+        list-style-type: disc;
+        margin-left: 20px;
+        color: hsl(0, 0%, 0%);
+    }
+    
+    .project ul li {
+        margin-bottom: 5px;
+    }
+    
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    
+    .ec-row{
+        background-color: hsl(252, 94%, 82%);
+    }
+    .extra-curriculars {
+        padding: 20px;
+        background-color: hwb(0 100% 0%);
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .activity {
+        margin-bottom: 20px;
+    }
+    
+    .activity h3 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+    
+    .activity p {
+        margin-bottom: 5px;
+    }
+    
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+
+    /* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    /* Adjustments for screens up to 768px */
+    .container {
+        padding: 0 10px; /* Add some padding to the container */
+    }
+
+    .self-intro,
+    .education,
+    .work-experience,
+    .projects,
+    .extra-curriculars {
+        margin-bottom: 20px; /* Add some bottom margin to create space between sections */
+        padding: 20px; /* Add padding to the sections */
+    }
+
+    .work-experience,
+    .projects,
+    .extra-curriculars {
+        background-color: transparent; /* Remove background color to reduce visual weight */
+    }
+
+    .work-experience .job,
+    .projects .project,
+    .extra-curriculars .activity {
+        border: 1px solid #ddd; /* Add border to visually separate each item */
+        border-radius: 8px; /* Add border radius for rounded corners */
+        padding: 15px; /* Add padding to each item */
+        margin-bottom: 15px; /* Add bottom margin to each item */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Adjustments for screens up to 480px */
+    .self-intro,
+    .education,
+    .work-experience,
+    .projects,
+    .extra-curriculars {
+        margin-bottom: 15px; /* Further reduce bottom margin for smaller screens */
+    }
+
+    .work-experience .job,
+    .projects .project,
+    .extra-curriculars .activity {
+        padding: 10px; /* Further reduce padding for smaller screens */
+    }
+}
